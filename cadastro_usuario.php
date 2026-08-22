@@ -43,7 +43,8 @@ $mensagem = "Email inválido.";
 
         <nav>
 
-        <a href = "index.php">
-            
+        <a href = "index.php"> Gerenciamento de tarefas </a>
+        <a href = "cadastrar_usuario"> Gerenciamento de tarefas </a>
+        <a href = "cadastrar_tarefas"> Gerenciamento de tarefas </a>
 </body>
 </html>
