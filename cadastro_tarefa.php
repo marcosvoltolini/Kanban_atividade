@@ -19,3 +19,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $setor = $_POST['setor'] ?? '';
     $prioridade = $_POST['prioridade'] ?? '';
     
+    if (empty($id_usuario) || empty($descricao) || empty($setor) || empty($prioridade)) {
+        $mensagem = 'Todos os campos são obrigatórios.';
+    } else {
+        if ($edicao) {
+            $id $_POST['id'];
+            
+        } 
+    }
